@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context="com.example.nanabaahabekah.myfirstproject.FullscreenActivity">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+    <Button
+        android:layout_width="2.4in"
+        android:layout_height="0.3in"
+        android:layout_gravity="top|center"
+        android:text="Send 1 conversation" />
+    <RatingBar
+        android:layout_height="0.3in"
+        android:layout_width="1.5in"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="0.3in"/>
+    <TimePicker
+        android:layout_marginTop="1.5in"
+        android:layout_width="2in"
+        android:layout_height="0.5in"
+        android:layout_gravity="top|center"/>
+</FrameLayout>
+
